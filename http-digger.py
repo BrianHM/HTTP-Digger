@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # HTTP Digger - Scanning HTTP Banner and Methods
-# Written by Brian HM (Gr3x)
+# Written by m0zi
 
 import socket
 import sys
@@ -9,7 +9,7 @@ script_name = sys.argv[0]
 
 if len(sys.argv) != 2:
 	print "\n[+] HTTP Digger - Scanning HTTP Banner and Methods"
-	print "[+] Written by Brian HM (Gr3x)"
+	print "[+] Written by m0zi"
 	print "[+] Usage: %s <IP Address>\n" % script_name
 	sys.exit()
 
